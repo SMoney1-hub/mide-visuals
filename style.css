@@ -1,0 +1,264 @@
+/* Base and Header Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Helvetica Neue', sans-serif;
+  background-color: #000000;
+  color: #6d4100;
+}
+
+header {
+  background: #000;
+  color: #fff;
+  padding: 1rem;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.2rem;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.nav-links a.active,
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+  padding: 3rem 1rem;
+  text-align: center;
+  background: #f4f4f4;
+}
+
+/* Portfolio Section */
+.portfolio-preview {
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+.grid {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.card {
+  background: #eee;
+  padding: 2rem;
+  border-radius: 8px;
+  width: 150px;
+}
+
+/* Footer */
+footer {
+  background: #000;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+/* Inherit Base + Header Styles from index.css */
+
+/* Gallery Section */
+.gallery {
+  padding: 2rem;
+  text-align: center;
+}
+
+/* Filter Buttons */
+.filter-buttons {
+  margin-bottom: 1.5rem;
+}
+
+.filter-buttons button {
+  margin: 0 0.5rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  background: #333;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background 0.3s ease;
+}
+
+.filter-buttons button:hover,
+.filter-buttons button.active {
+  background: #555;
+}
+
+/* Image Grid */
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.image-card img {
+  width: 100%;
+  border-radius: 8px;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.image-card img:hover {
+  transform: scale(1.05);
+}
+
+/* About Page Styles */
+
+/* Inherit Base + Header Styles from index.css */
+
+/* About Section */
+.about {
+  padding: 3rem 1rem;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.about h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.about h2 {
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  color: #333;
+}
+
+.about p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #555;
+  margin-bottom: 1rem;
+}
+
+/* Footer Styles */
+footer {
+  background: #000;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+/* Contact Page Styles */
+
+/* Inherit Base + Header Styles from index.css */
+
+/* Contact Section */
+.contact {
+  padding: 3rem 1rem;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.contact h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.contact p {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 2rem;
+}
+
+/* Form Styling */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.contact-form label {
+  font-weight: bold;
+  color: #333;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 0.8rem;
+  margin-top: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.contact-form button {
+  background: #333;
+  color: #fff;
+  padding: 0.8rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 1rem;
+  transition: background 0.3s ease;
+}
+
+.contact-form button:hover {
+  background: #555;
+}
+
+/* Social Links */
+.social-links h2 {
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.social-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.social-links li {
+  margin: 0.5rem 0;
+}
+
+.social-links a {
+  text-decoration: none;
+  color: #333;
+}
+
+.social-links a:hover {
+  text-decoration: underline;
+  color: #007BFF; /* Highlight color */
+}
+
+/* Footer Styles */
+footer {
+  background: #000;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
